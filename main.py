@@ -35,14 +35,14 @@ if ask == "p":
 	      msg = client.send_message(id_send, f"```{session_str}```")
 	      msg.reply_text("""☝️ This is your Pyrogram String Session of this Bot
         ​        
-        💭 Join @Professer_Ashu""")
+        💭 Join @LynnceptNetwork""")
 	      exit("Check the Bot PM to get the String Session")
      
 	  msg = client.send_message("me", f"`{session_str}`")
 	  msg.reply_text("""
 👆 This is your pyrogram string session
 ​
-💭 Join @Professer_Ashu
+💭 Join @LynnceptNetwork
 """)
 	  print(f"\nSuccessfully Logged in as {fname}  \n\nCheck the User's Saved Messages for the Pyrogram String Session")
  
@@ -60,7 +60,7 @@ elif ask == "t":
 		msg.reply("""
 👆 This is your telethon session string.
 ​
-💭 Join @Professer_Ashu
+💭 Join @LynnceptNetwork
 """)
 		print("\nCheck your saved messages for the Telethon String Session")
  
